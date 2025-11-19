@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [Pear by Holepunch](README.md)
 * [Tutorials](tutorials/README.md)
   * [Getting Started](tutorials/getting-started.md)
   * [First App](tutorials/first-app.md)

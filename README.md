@@ -1,6 +1,4 @@
-# README
-
-## Pear by Holepunch
+# Pear by Holepunch
 
 Pear by Holepunch is a combined Peer-to-Peer (P2P) Runtime, Development & Deployment tool.
 
