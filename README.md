@@ -1,5 +1,13 @@
 # Pear by Holepunch
 
+> Pear by Holepunch is a combined Peer-to-Peer (P2P) Runtime, Development & Deployment tool.
+>
+> Build, share & extend unstoppable, zero-infrastructure P2P applications for Desktop, Terminal & Mobile.
+>
+> Welcome to the Internet of Peers
+>
+> _– Holepunch, the P2P Company_
+
 ### 🧭 Orientation
 
 This documentation helps you get started with Pear using approachable tutorials and fast references.
@@ -82,3 +90,4 @@ Understand how Pear runs, configures, and connects.
 
 * [Mobile with Bare](ecosystem/examples/mobile-bare.md)
 * [React App](ecosystem/examples/react-app.md)
+
