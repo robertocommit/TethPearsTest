@@ -12,48 +12,46 @@ Whether you're building a simple CLI or a complex multi-peer application, Pear i
 
 Start here if you're new to the Pear ecosystem.
 
-* [Getting Started](broken-reference)
-* [Building Desktop Apps](broken-reference)
-* [Building Terminal Apps](broken-reference)
-* [Making Mobile Apps](broken-reference)
-* [Releasing & Sharing](broken-reference)
-* [Best Practices](broken-reference)
+* [Getting Started](tutorials/getting-started.md)
+* [Building Desktop Apps](tutorials/advanced/desktop-project.md)
+* [Building Terminal Apps](tutorials/advanced/terminal-project.md)
+* [Making Mobile Apps](tutorials/advanced/bare-mobile-app.md)
+* [Releasing & Sharing](tutorials/advanced/mark-release.md)
+* [Best Practices](tutorials/advanced/best-practices.md)
 
 #### Runtime & Internals
 
 Understand how Pear runs, configures, and connects.
 
-* [CLI Reference](broken-reference)
-* [API Reference](broken-reference)
-* [App Configuration](broken-reference)
-* [Migration Guide](broken-reference)
-* [Troubleshooting](broken-reference)
+* [CLI Reference](reference/command-line-interface-cli.md)
+* [API Reference](reference/application-programming-interface-api.md)
+* [App Configuration](reference/application-configuration.md)
+* [Migration Guide](reference/migration.md)
+* [Troubleshooting](how-to/troubleshooting.md)
 
 <details>
 
 <summary>FAQ</summary>
 
-* [Frequently Asked Questions](broken-reference)
+* [Frequently Asked Questions](explanation/frequently-asked-questions.md)
 
 </details>
 
 #### Key Concepts (Building Blocks)
 
-* [Hypercore](broken-reference)
-* [Hyperbee](broken-reference)
-* [Hyperdrive](broken-reference)
-* [Autobase](broken-reference)
-* [HyperDHT](broken-reference)
-* [Hyperswarm](broken-reference)
+* [Hypercore (Log)](explanation/building-blocks/hypercore-log.md)
+* [Hyperbee (KV Store)](explanation/building-blocks/hyperbee-kv-store.md)
+* [Hyperdrive (File System)](explanation/building-blocks/hyperdrive-file-system.md)
+* [Autobase (Merge Logs)](explanation/building-blocks/autobase-merge-logs.md)
+* [HyperDHT (P2P Network)](explanation/building-blocks/hyperdht-p2p-network.md)
+* [Hyperswarm (Peer Discovery)](explanation/building-blocks/hyperswarm-peer-discovery.md)
 
 #### How-To Recipes
 
-* [Connect Peers with HyperDHT](broken-reference)
-* [Use Topics with Hyperswarm](broken-reference)
-* [Persist State with Hypercore](broken-reference)
-* [Manage Hypercores](broken-reference)
-* [Use Hyperbee for Storage](broken-reference)
-* [Build a P2P Filesystem](broken-reference)
+* [Connect Peers with HyperDHT](how-to/connect-two-peers.md)
+* [Manage Hypercores](how-to/manage-multiple-hypercores.md)
+* [Build a P2P Filesystem](how-to/create-a-p2p-filesystem.md)
+* and more
 
 ***
 
@@ -61,37 +59,26 @@ Understand how Pear runs, configures, and connects.
 
 #### Helpers
 
-* [Corestore](broken-reference)
-* [Localdrive](broken-reference)
-* [Mirrordrive](broken-reference)
-* [Secretstream](broken-reference)
-* [Compact-Encoding](broken-reference)
-* [Protomux](broken-reference)
+* [Corestore (Multi-Core Manager)](ecosystem/helpers/corestore-multi-core-manager.md)
+* [Localdrive (Local FS Layer)](ecosystem/helpers/localdrive-local-fs-layer.md)
+* [Mirrordrive (Drive Sync)](ecosystem/helpers/mirrordrive-drive-sync.md)
+* [Secretstream (Secure Stream)](ecosystem/helpers/secretstream-secure-stream.md)
+* [Compact-Encoding (Binary Codec)](ecosystem/helpers/compact-encoding-binary-codec.md)
+* [Protomux (Stream Multiplexer)](ecosystem/helpers/protomux-stream-multiplexer.md)
 
 #### Tools
 
-* [Hypershell](broken-reference)
-* [Hypertele](broken-reference)
-* [Hyperbeam](broken-reference)
-* [Hyperssh](broken-reference)
-* [Drives](broken-reference)
+* [Hypershell (Encrypted Peer Sheel)](ecosystem/tools/hypershell-encrypted-peer-shell.md)
+* [Hypertele (P2P Proxy Tool)](ecosystem/tools/hypertele-p2p-proxy-tool.md)
+* [Hyperbeam (Encrypted Data Pipe)](ecosystem/tools/hyperbeam-encrypted-data-pipe.md)
+* [Hyperssh (SSH over DHT)](ecosystem/tools/hyperssh-ssh-over-dht.md)
+* [Drives (Local & Hyper Drives)](ecosystem/tools/drives-local-and-hyper-drives.md)
 
 #### Real Apps
 
-* [Keet](broken-reference)
+* [Keet](ecosystem/real-apps/keet.md)
 
 #### Examples
 
-* [Mobile with Bare](broken-reference)
-* [React App](broken-reference)
-
-***
-
-### 📌 Stability Index
-
-| Stability        | Description                                  |
-| ---------------- | -------------------------------------------- |
-| **stable**       | Used in production, reliable API surface.    |
-| **experimental** | Subject to change, under active development. |
-| **deprecated**   | Will be phased out soon.                     |
-| **unstable**     | May break without warning.                   |
+* [Mobile with Bare](ecosystem/examples/mobile-bare.md)
+* [React App](ecosystem/examples/react-app.md)
