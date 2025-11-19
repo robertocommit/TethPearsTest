@@ -1,9 +1,5 @@
 # Pear by Holepunch
 
-## Welcome to Pear
-
-***
-
 ### 🧭 Orientation
 
 This documentation helps you get started with Pear using approachable tutorials and fast references.
